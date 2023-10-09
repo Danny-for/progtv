@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Conversor";
+}
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="videoFile">Selecione o Video:</label>
+        <input type="file" class="form-control" id="videoFile" name="videoFile" accept="video/*">
+    </div>
+
+    <div class="mt-3">
+        <button btn btn-primary" type="submit">Processe</button>
+    </div>
+
+</form>
